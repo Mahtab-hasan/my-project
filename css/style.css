@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+header{
+    background-color: black;
+    padding: 20px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: .4s all;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::before{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+.line{
+    height: 10px;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+}
+.digital{
+    padding-top: 70px;
+    padding-bottom: 50px
+
+}
+.digitaltwo h1{
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 64px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+.digitaltwo p{
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 33px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.digitaltwo button{
+    padding: 10px 50px;
+    --bs-btn-border-color: #ffffff;
+    border-radius: 23px;
+    margin-bottom: 18px;
+}
+.iconsec{
+    height: 100vh;
+    background: #554C86;
+}
+.iconbox{    
+    height: 60%;
+    margin-top: 30%;
+    padding: 16px;
+}
+.iconboxcol{
+    flex: 1;
+}
+.iconbag{
+    text-align: center;
+}
+.iconbag h2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: -webkit-body;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.textsection{
+    background: #39D47A;
+    height: 100vh;
+}
+.textsec{
+    padding-left: 16px;
+    padding-top: 20%;
+}
+.textsec h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.textsec p{
+    text-transform: math-auto;
+    line-height: 28px;
+    padding-bottom: 13px;
+    color: #fff;
+    }
+.textsec button {
+     margin-top: 16px;
+     font-size: 24px;
+     border-radius: 33px;
+     border-width: 3px;
+     border-end-start-radius: 7px;
+     border-top-right-radius: 7px;
+     border-top-style: double;
+}
+.textdummy{ 
+    text-align: center;
+    line-height: 29px;
+    width: 52%;
+    margin-left: 25%;
+    padding-top: 30px;
+    margin-bottom: 24px;
+}
+.textdummy h4{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.textdummy h1{
+    line-height: 66px;
+    font-weight: 900;
+    font-family: revert;
+    font-size: 38px;
+}
+.textdummy p{
+    font-size: 15px;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.dummycol{
+    /* height: 70vh; */
+    /* padding-top: 100px; */
+}
+.persent{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.persentparent{
+    height: 270px;
+    width: 270px;    
+    border: 20px solid;
+    border-radius: 50%;
+    border-bottom-style: dotted;    
+    border-left-color: #e94123;    
+    border-top-color: #e33718;
+    border-top-style: dotted;
+    border-bottom-color: #b91c00;
+    border-right-color: #8f1600;
+}
+.colpersent{
+    height: 280px;
+    width: 280px;
+}
+.myteam{
+
+padding-top: 20px;
+
+/* height: 100vh; */
+}
+.teamparent{
+    margin-top: 130px;
+    width: 414px;
+    padding-left: 21px;
+}
+.teamparent h1{
+    padding-bottom: 14px;
+    text-transform: capitalize;
+    font-size: 53px;
+    font-weight: 900;
+    color: #fff;
+}
+.teamparent p{
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+.teamparent button{
+    padding-top: 11px; 
+    padding-bottom: 11px;
+    border: 1px solid;
+    border-radius: 40px;
+    font-size: 24px;
+    border-top-left-radius: 13px;
+    border-end-end-radius: 13px;
+    border: double;
+}
+.slider{
+    margin-top: 25px;
+    padding: 60px 80px;
+    height: 100vh;
+}
+.portfolio{
+    padding-top: 5%;
+}
+.textimagespart{
+    margin-left: 7px;
+}
+.textimagespart h1{
+    font-size: 44px;
+    font-weight: 900;
+    font-family: unset;
+    line-height: 48px;}
+.textimagespart img{
+    width: 96%;
+    padding-top: 8%;
+}
+.firsttextparent{
+
+display: flex;
+
+margin-top: 44px;
+
+align-items: center;
+}
+.secondtextparent{
+    
+}
+.secondtextparent h6{
+    text-transform: capitalize;
+    line-height: 34px;
+    font-family: initial;
+    font-weight: 700;
+    font-size: 18px;
+}
+.secondbtnparen button{   
+    padding: 7px 24px;    
+    text-transform: capitalize;    
+    font-size: 20px;
+    border-radius: 29px;
+}
+.firstbtnparent{
+
+padding-left: 156px;
+}
+.secondbtnparen{
+    
+}
+.clients{
+
+background: #554C86;
+
+margin-top: 16px;
+
+padding-bottom: 43px;
+}
+.clients-text{
+    margin-top: 100px;
+}
+.clients-text h1{
+
+font-size: 70px;
+
+line-height: 82px;
+
+text-transform: uppercase;
+
+color: #fff;
+
+padding-bottom: 19px;
+
+padding-top: 22px;
+}
+.clients-text p{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+text-transform: capitalize;
+}
+.clientsimgp{
+
+text-align: center;
+
+margin-top: 50px;
+}
+.iconholder{margin: 0;font-size: 104px;text-align: center;font-family: initial;color: #fff;}
+.itemh4{
+    
+width: 20%;
+    
+margin-left: 40%;
+    
+margin-bottom: -22px;
+}
+.clientsimgp p {
+    
+color: #fff;
+    
+text-transform: capitalize;
+}
+
+.imgclient img{
+
+height: 100px;
+
+width: 100px;
+
+border-radius: 50%;
+
+margin-top: 27px;
+}
+.imgclient h4{
+
+color: #fff;
+
+margin-top: 13px;
+}
+.lastlie{
+    height: 15px;
+}
+.last1line{
+    height: 15px;
+    width: 100%;
+}
+.last2line{
+    height: 15px;
+    width: 100%;
+}
+.last3line{
+    height: 15px;
+    width: 100%;
+}
+footer{
+
+background: #13131e;
+}
+.iconftr{
+
+margin: 26% 0;
+
+color: #adb5bd;
+}
+.icon-black{
+
+font-size: 18px;
+}
+
+.textftr{
+
+margin: 26% 0;
+
+color: #adb5bd;
+}
+.textftr h6{
+
+font-size: 13px;
+
+padding-left: 14px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(206, 206, 206); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e03d3d; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(20, 19, 19); 
+  }
+
+
+
+  @media screen  and (max-width: 575px){
+    .logo{
+        text-align: center;
+    }
+  }
