@@ -31,15 +31,6 @@ header{
     width: 90%;
 }
 
-
-
-
-
-
-
-
-
-
 .line{
     height: 10px;
     width: 100%;
@@ -75,12 +66,12 @@ header{
     margin-bottom: 18px;
 }
 .iconsec{
-    height: 100vh;
+    /* height: 100vh; */
     background: #554C86;
 }
-.iconbox{    
+.iconbox{
     height: 60%;
-    margin-top: 30%;
+    margin-top: 22%;
     padding: 16px;
 }
 .iconboxcol{
@@ -100,12 +91,9 @@ header{
 }
 .textsection{
     background: #39D47A;
-    height: 100vh;
+    /* height: 100vh; */
 }
-.textsec{
-    padding-left: 16px;
-    padding-top: 20%;
-}
+.textsec{text-align: inherit;padding: 8%  2px 13% 0;}
 .textsec h1{
     text-transform: uppercase;
     font-size: 60px;
@@ -140,20 +128,18 @@ header{
     font-size: 14px;
 }
 .textdummy h1{
-    line-height: 66px;
     font-weight: 900;
     font-family: revert;
     font-size: 38px;
+    padding: 18px 0;
 }
 .textdummy p{
     font-size: 15px;
     text-transform: capitalize;
-    line-height: 21px;
+    line-height: 22px;
+    padding-bottom: 18px;
 }
-.dummycol{
-    /* height: 70vh; */
-    /* padding-top: 100px; */
-}
+
 .persent{
     padding-bottom: 100px;
     padding-top: 100px;
@@ -172,18 +158,20 @@ header{
 }
 .colpersent{
     height: 280px;
+    margin: 18px 0;
     width: 280px;
 }
 .myteam{
 
 padding-top: 20px;
-
-/* height: 100vh; */
+}
+.myteam1{
+    background-color: #f84572;
 }
 .teamparent{
-    margin-top: 130px;
-    width: 414px;
-    padding-left: 21px;
+    margin-top: 15%;
+    width: 100%;
+    padding-left: 26px;
 }
 .teamparent h1{
     padding-bottom: 14px;
@@ -211,7 +199,7 @@ padding-top: 20px;
 .slider{
     margin-top: 25px;
     padding: 60px 80px;
-    height: 100vh;
+    margin-bottom: 5%;
 }
 .portfolio{
     padding-top: 5%;
@@ -236,9 +224,7 @@ margin-top: 44px;
 
 align-items: center;
 }
-.secondtextparent{
-    
-}
+
 .secondtextparent h6{
     text-transform: capitalize;
     line-height: 34px;
@@ -256,9 +242,8 @@ align-items: center;
 
 padding-left: 156px;
 }
-.secondbtnparen{
-    
-}
+
+
 .clients{
 
 background: #554C86;
@@ -351,7 +336,7 @@ background: #13131e;
 }
 .iconftr{
 
-margin: 26% 0;
+margin: 17% 0;
 
 color: #adb5bd;
 }
@@ -362,7 +347,7 @@ font-size: 18px;
 
 .textftr{
 
-margin: 26% 0;
+margin: 19% 0;
 
 color: #adb5bd;
 }
@@ -392,10 +377,3 @@ padding-left: 14px;
     background: rgb(20, 19, 19); 
   }
 
-
-
-  @media screen  and (max-width: 575px){
-    .logo{
-        text-align: center;
-    }
-  }

@@ -1,0 +1,117 @@
+@media(max-width:575px){
+    .headerimg{
+        text-align: center;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-item{
+        text-decoration-line: blink;
+        width: 50%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::before{
+        transition: .5s all;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link:hover::before{
+        width: 140%;
+    }
+    .digital {
+        padding: 20px 0px 50px;
+        text-align: center;
+    }
+    .digitaltwo {
+        padding-bottom: 30px;
+        padding-top: 11px;
+    }
+    .iconsec {
+       
+        
+    }
+    .iconbox {
+        padding: 0px;
+        margin: 8% 0 8% 0;
+    }
+    .textsec {
+        text-align: center;
+    }
+    .textdummy h1 {
+        font-weight: 900;
+        font-size: 33px;
+        padding: 13px 0;
+    }
+    .dummyitemz {
+        display: grid;
+    }
+    .colpersent {
+    
+        margin-left: 58%;
+        padding: 8px 0;
+        margin-bottom: 20px;
+    }
+    .teamparent {
+        margin-top: 60px;
+        width: 100%;
+        padding-left: 1%;
+        text-align: center;
+    }
+    .teamparent h1 {
+        padding-bottom: 13px;
+        text-transform: capitalize;
+        font-size: 48px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 41px;
+    }
+    .slider {
+        margin-top: 2px;
+        padding: 60px 60px;
+        margin-bottom: 2%;
+    }
+    .textimagespart h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .textimagespart img {
+        width: 99%;
+        padding-top: 4%;
+    }
+    .firsttextparent {
+        margin-top: 18px;
+        padding-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+    .firstbtnparent {
+        text-align: center;
+        padding-left: 0%;
+    }
+    .clients-text h1 {
+        font-size: 60px;
+        line-height: 74px;
+        padding-bottom: 17px;
+        padding-top: 3px;
+        text-align: center;
+    }
+    .clients-text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .clientsimgp {
+     
+        margin-top: 24px;
+        padding-bottom: 26px;
+    }
+    .iconftr {
+        margin: 5% 11%;
+       
+    }
+    .textftr {
+        
+        text-align: center;
+        margin-bottom: 7%;
+        margin-top: 2%;
+    }
+}
