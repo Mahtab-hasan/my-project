@@ -43,10 +43,10 @@
         padding: 13px 0;
     }
     .dummyitemz {
-        /* display: grid; */
+        display: grid;
     }
     .colpersent {
-    margin-left: 24%;
+    margin-left: 20%;
     padding: 8px 0;
     margin-bottom: 20px;
     }
