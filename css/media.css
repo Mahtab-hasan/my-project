@@ -43,13 +43,12 @@
         padding: 13px 0;
     }
     .dummyitemz {
-        display: grid;
+        /* display: grid; */
     }
     .colpersent {
-    
-        margin-left: 58%;
-        padding: 8px 0;
-        margin-bottom: 20px;
+    margin-left: 24%;
+    padding: 8px 0;
+    margin-bottom: 20px;
     }
     .teamparent {
         margin-top: 60px;
